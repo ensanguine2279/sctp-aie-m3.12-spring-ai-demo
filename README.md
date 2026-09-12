@@ -1,0 +1,1 @@
+Completed the spring-ai-demo from [Lesson: Coaching — Introduction to Spring AI](https://github.com/su-ntu-sctp/ai-3.12-coaching-recap-intro-spring-ai/blob/main/lesson.md)

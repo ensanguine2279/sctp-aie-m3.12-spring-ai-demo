@@ -1,0 +1,418 @@
+{
+  "info": {
+    "_postman_id": "f0e52d60-dfd7-4c28-9bbd-3e5e7d5da9e2",
+    "name": "SCTP AIE M3 L12 - Spring AI Demo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "13967603"
+  },
+  "item": [
+    {
+      "name": "Product Recommender",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/product?message=I need a new laptop for a data science course I'll be attending soon.  are there any good deals now?",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "product"
+          ],
+          "query": [
+            {
+              "key": "message",
+              "value": "I need a new laptop for a data science course I'll be attending soon.  are there any good deals now?"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}product?message=I need a new laptop for a data science course I'll be attending soon.  are there any good deals now?",
+              "host": [
+                "{{url}}product"
+              ],
+              "query": [
+                {
+                  "key": "message",
+                  "value": "I need a new laptop for a data science course I'll be attending soon.  are there any good deals now?"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "Text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "2828"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 05 Sep 2026 02:26:05 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "To help you find the best laptop for your data science course, I will focus on key specifications that are typically required for data science tasks, such as data analysis, machine learning, and potentially some programming. Here are the essential specifications to consider:\n\n### Key Laptop Specifications for Data Science\n- **Processor (CPU)**: At least an Intel i5 or AMD Ryzen 5. For more intensive tasks, consider i7 or Ryzen 7.\n- **RAM**: Minimum 16GB is recommended for multitasking and handling larger datasets.\n- **Storage**: SSD storage (256GB or larger) for faster data access and boot times.\n- **Graphics Card (GPU)**: A dedicated GPU (like NVIDIA GTX 1650 or better) can be beneficial for deep learning tasks.\n- **Display**: A full HD (1920x1080) resolution for clarity when working with data visualizations.\n\n### Budget Considerations\n- **Entry-Level**: $700 - $1,000\n- **Mid-Range**: $1,000 - $1,500\n- **High-End**: $1,500+\n\n### Example Laptops for Data Science\n| Model                | CPU                | RAM   | Storage        | GPU               | Price Range    |\n|----------------------|-------------------|-------|----------------|-------------------|-----------------|\n| Dell Inspiron 15     | Intel i5          | 16GB  | 512GB SSD      | Integrated         | $800 - $1,000   |\n| HP Pavilion 15       | AMD Ryzen 5       | 16GB  | 256GB SSD      | Integrated         | $700 - $900     |\n| ASUS VivoBook 15     | Intel i7          | 16GB  | 512GB SSD      | Integrated         | $1,000 - $1,200 |\n| Lenovo Legion 5      | AMD Ryzen 7       | 16GB  | 1TB SSD        | NVIDIA GTX 1650    | $1,200 - $1,500 |\n| MacBook Pro 13\"     | Apple M1          | 16GB  | 512GB SSD      | Integrated         | $1,300 - $1,500 |\n\n### Recommendations\n1. **For Budget-Conscious Users**: Consider the **HP Pavilion 15** for solid performance at a lower price point.\n2. **For Better Performance**: The **ASUS VivoBook 15** or **Dell Inspiron 15** are great choices for a balance of power and cost.\n3. **For High-Performance Needs**: The **Lenovo Legion 5** is ideal if you require a dedicated GPU for machine learning tasks.\n\n### Current Deals\nSince I do not have access to real-time pricing or availability, I recommend checking popular retailers such as Amazon, Best Buy, or Newegg for current promotions, student discounts, or seasonal sales that may apply. Additionally, consider checking manufacturer websites for any direct deals or refurbished models that could provide good value.\n\n### Final Steps\n- Determine your budget.\n- Assess whether you need a dedicated GPU based on your coursework.\n- Look for deals online, and compare specifications before making a decision.\n\nIf you have any specific budget constraints or preferences (like brand or operating system), please let me know for more tailored recommendations!"
+        }
+      ]
+    },
+    {
+      "name": "Study Buddy",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/study?message=explain the concept of virtual threads",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "study"
+          ],
+          "query": [
+            {
+              "key": "message",
+              "value": "explain the concept of virtual threads"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/study?message=explain the concept of virtual threads",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "study"
+              ],
+              "query": [
+                {
+                  "key": "message",
+                  "value": "explain the concept of virtual threads"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "Text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "4300"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 05 Sep 2026 02:23:53 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Certainly! The introduction of virtual threads in Java is an exciting development, especially for managing concurrency more efficiently. Let’s break it down step by step.\n\n### What are Threads?\n\nBefore we dive into virtual threads, let's quickly recap what a thread is. A thread is essentially a lightweight process that allows a program to perform multiple tasks simultaneously. In Java, threads are used to run tasks in parallel, improving the performance of applications, especially those that are I/O-bound or need to handle many tasks concurrently.\n\n### Traditional Threads vs. Virtual Threads\n\n**Traditional Threads:**\n- In Java, traditional threads are created and managed by the Java Virtual Machine (JVM) and the underlying operating system.\n- Each thread consumes system resources, which can lead to overhead, especially if you need to create thousands of threads.\n- Threads are block-based, meaning they can block other threads while waiting for resources (like I/O operations), which can reduce overall efficiency.\n\n**Virtual Threads:**\n- Virtual threads, introduced in Project Loom, aim to simplify the concurrency model in Java by providing a lightweight alternative to traditional threads.\n- They are designed to be much lighter in terms of resource usage, allowing you to create thousands (or even millions) of virtual threads without the heavy overhead associated with traditional threads.\n- Unlike traditional threads, virtual threads can be suspended and resumed without blocking system resources, which allows for more efficient resource management.\n\n### Key Benefits of Virtual Threads\n1. **Lightweight**: Virtual threads use fewer resources than traditional threads. You can create many more of them without running into resource limits.\n2. **Simplified Concurrency**: Writing concurrent code becomes easier and more intuitive. You can write code that looks synchronous but runs asynchronously behind the scenes.\n3. **Better Scalability**: Applications can scale better under load because you can handle more concurrent tasks.\n\n### Example Conceptualization\n\nImagine you are at a restaurant. Traditional threads are like individual waiters who take one order and wait at the kitchen for it to be prepared. If there are many orders, the waiters can become overwhelmed, leading to delays.\n\nVirtual threads, on the other hand, are like a system where waiters can take multiple orders and then move on to serve other customers while waiting for the food. They can come back to check on the orders without blocking the entire restaurant. This way, the restaurant can serve many more customers efficiently.\n\n### How to Use Virtual Threads in Java\n\nAs of now, the virtual threads feature is not yet part of the stable Java release but is available as a preview feature in Java 19. Here's a simple way to use virtual threads if you have access to it:\n\n```java\npublic class VirtualThreadExample {\n    public static void main(String[] args) {\n        // Creating a virtual thread\n        Thread virtualThread = Thread.ofVirtual().start(() -> {\n            // Simulate a task\n            try {\n                System.out.println(\"Virtual thread is running!\");\n                Thread.sleep(1000); // Simulating a blocking operation\n            } catch (InterruptedException e) {\n                Thread.currentThread().interrupt();\n            }\n        });\n\n        // Join the virtual thread to wait for its completion\n        virtualThread.join();\n        System.out.println(\"Virtual thread has finished.\");\n    }\n}\n```\n\n### Key Points in the Code\n- `Thread.ofVirtual().start(...)` creates and starts a virtual thread.\n- You can use `Thread.sleep(...)` to simulate blocking operations, but the execution of other virtual threads won't be blocked.\n- `join()` is used to wait for the virtual thread to finish before continuing in the main thread.\n\n### Conclusion\n\nVirtual threads represent a significant advancement in handling concurrency in Java, making it easier to write scalable and efficient applications. As you explore this new feature, remember that the goal is to simplify your code and improve performance without the complexity often associated with traditional threading models.\n\nIf you have any specific questions or need further clarification on any part, feel free to ask!"
+        }
+      ]
+    },
+    {
+      "name": "Recipe Suggester",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/study?message=I have eggs, chicken, and broccoli today.  what can I make",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "study"
+          ],
+          "query": [
+            {
+              "key": "message",
+              "value": "I have eggs, chicken, and broccoli today.  what can I make"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/study?message=I have eggs, chicken, and broccoli today.  what can I make",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "study"
+              ],
+              "query": [
+                {
+                  "key": "message",
+                  "value": "I have eggs, chicken, and broccoli today.  what can I make"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "Text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "2341"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 05 Sep 2026 02:31:27 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "With eggs, chicken, and broccoli, you have a great base for a few delicious dishes! Here are a couple of ideas you might consider:\n\n### 1. Chicken and Broccoli Stir-Fry\nThis is a quick and healthy option.\n\n**Steps:**\n- **Ingredients:** Chicken breast (sliced), broccoli florets, garlic (minced), soy sauce, and your choice of oil (like olive or sesame).\n- **Instructions:**\n  1. Heat oil in a pan over medium-high heat.\n  2. Add minced garlic and sauté for about 30 seconds until fragrant.\n  3. Add the sliced chicken and cook until browned and fully cooked (about 5-7 minutes).\n  4. Add broccoli florets and a splash of water (to help steam the broccoli) and cook for another 3-4 minutes until the broccoli is tender.\n  5. Pour in soy sauce, stir well, and cook for another minute.\n  6. Serve hot!\n\n### 2. Broccoli and Chicken Omelette\nThis is a great option for breakfast or brunch.\n\n**Steps:**\n- **Ingredients:** Eggs, cooked chicken (shredded or diced), broccoli (steamed), cheese (optional), salt, and pepper.\n- **Instructions:**\n  1. In a bowl, crack 2-3 eggs and beat them until combined. Add a pinch of salt and pepper.\n  2. In a non-stick skillet, add a little oil and heat over medium heat.\n  3. Pour in the beaten eggs and let them cook for a minute until the edges start to set.\n  4. Add cooked chicken and broccoli on one half of the omelette. \n  5. If you like, sprinkle some cheese on top.\n  6. Once the bottom is set, fold the omelette over and cook for another minute until the inside is cooked through.\n  7. Slide it onto a plate and enjoy!\n\n### 3. Chicken Broccoli Casserole\nIf you want something that can be made ahead, this casserole is a great option.\n\n**Steps:**\n- **Ingredients:** Cooked chicken (shredded), broccoli (steamed), eggs, cheese, and breadcrumbs (optional).\n- **Instructions:**\n  1. Preheat your oven to 350°F (175°C).\n  2. In a large bowl, combine shredded chicken, steamed broccoli, and a cup of cheese.\n  3. Beat 2-3 eggs and mix them into the bowl to bind everything together.\n  4. Pour the mixture into a greased baking dish.\n  5. If you like, sprinkle breadcrumbs on top for crunch.\n  6. Bake for about 25-30 minutes until set and golden on top.\n  7. Let it cool slightly before serving.\n\nFeel free to mix and match ingredients based on your taste and what you have available. Enjoy your cooking!"
+        }
+      ]
+    },
+    {
+      "name": "Interview Coach",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/interview?message=give me a list of common questions that i will encounter in an interview",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "interview"
+          ],
+          "query": [
+            {
+              "key": "message",
+              "value": "give me a list of common questions that i will encounter in an interview"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/interview?message=give me a list of common questions that i will encounter in an interview",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "interview"
+              ],
+              "query": [
+                {
+                  "key": "message",
+                  "value": "give me a list of common questions that i will encounter in an interview"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "Text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "3320"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 05 Sep 2026 02:38:41 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Certainly! Here's a list of common Java-related interview questions that you may encounter during technical interviews. These questions span several categories, including core Java concepts, object-oriented programming, concurrency, collections, design patterns, and system design.\n\n### Core Java Concepts\n1. **What are the main principles of Object-Oriented Programming (OOP)?**\n2. **Explain the differences between `==` and `.equals()` in Java.**\n3. **What is the difference between an interface and an abstract class?**\n4. **What are Java Collections and why are they important?**\n5. **Explain the concept of Java's Garbage Collection. How does it work?**\n\n### Concurrency\n6. **What is a thread in Java? How do you create one?**\n7. **Explain the differences between `synchronized` and `volatile`.**\n8. **What is a deadlock, and how can it be avoided?**\n9. **What are the different types of thread pools in Java?**\n10. **What are the advantages of using the `java.util.concurrent` package?**\n\n### Collections\n11. **What is the difference between `ArrayList` and `LinkedList`?**\n12. **How does a `HashMap` work? What is its time complexity for insertions and lookups?**\n13. **What are the differences between `Set`, `List`, and `Map`?**\n14. **Explain how sorting works in Java Collections Framework.**\n15. **What is the purpose of the `Comparator` interface?**\n\n### Design Patterns\n16. **Can you explain the Singleton design pattern and when it is used?**\n17. **What is the Factory design pattern? How does it differ from the Builder pattern?**\n18. **Describe the Observer pattern. Can you provide a real-world example?**\n19. **What is Dependency Injection, and how is it implemented in Spring?**\n20. **Explain the concept of the Strategy pattern with an example.**\n\n### System Design\n21. **How would you design a URL shortening service?**\n22. **What considerations would you take into account when designing a chat application?**\n23. **Explain how you would design a distributed caching system.**\n24. **What are microservices, and what are the advantages and disadvantages of using them?**\n25. **How would you handle rate limiting in an API?**\n\n### Algorithms and Data Structures\n26. **Can you explain the time complexity of common sorting algorithms?**\n27. **What is the difference between a stack and a queue?**\n28. **How do you detect a cycle in a linked list?**\n29. **What is dynamic programming? Can you provide a simple example?**\n30. **How do you approach solving problems on platforms like LeetCode or HackerRank?**\n\n### Behavioral Questions\n31. **Describe a challenging technical problem you faced and how you resolved it.**\n32. **How do you prioritize tasks when working on multiple projects?**\n33. **Can you describe a time when you had to work with a difficult team member?**\n34. **What are your strategies for keeping up with new technologies?**\n35. **How do you handle constructive criticism?**\n\n### Tips for Preparation\n- Familiarize yourself with the concepts behind each question.\n- Practice coding problems on platforms like LeetCode or HackerRank.\n- Review design patterns and system design principles.\n- Engage in mock interviews to simulate the interview environment.\n\nFeel free to ask for clarification on any specific topic or question, or if you would like me to elaborate on a particular area!"
+        }
+      ]
+    },
+    {
+      "name": "Summarizer",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/summarizer?text=The Q3 platform migration finished two weeks behind schedule. The delay came mainly from\nthe payments module, where an undocumented dependency on the old session service was only\ndiscovered during integration testing. The team resolved it by introducing a temporary\nadapter, which is now scheduled for removal in Q1. Overall system latency improved by\naround 18 percent after the migration, and error rates during peak hours dropped noticeably.\nThree engineers were pulled from the reporting project to help with the fix, which pushed\nthe reporting dashboard work into the next quarter. The team has recommended that future\nmigrations include a dependency audit before work begins, and that integration testing\nstart earlier rather than at the end.",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "summarizer"
+          ],
+          "query": [
+            {
+              "key": "text",
+              "value": "The Q3 platform migration finished two weeks behind schedule. The delay came mainly from\nthe payments module, where an undocumented dependency on the old session service was only\ndiscovered during integration testing. The team resolved it by introducing a temporary\nadapter, which is now scheduled for removal in Q1. Overall system latency improved by\naround 18 percent after the migration, and error rates during peak hours dropped noticeably.\nThree engineers were pulled from the reporting project to help with the fix, which pushed\nthe reporting dashboard work into the next quarter. The team has recommended that future\nmigrations include a dependency audit before work begins, and that integration testing\nstart earlier rather than at the end."
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/summarizer?text=The Q3 platform migration finished two weeks behind schedule. The delay came mainly from\nthe payments module, where an undocumented dependency on the old session service was only\ndiscovered during integration testing. The team resolved it by introducing a temporary\nadapter, which is now scheduled for removal in Q1. Overall system latency improved by\naround 18 percent after the migration, and error rates during peak hours dropped noticeably.\nThree engineers were pulled from the reporting project to help with the fix, which pushed\nthe reporting dashboard work into the next quarter. The team has recommended that future\nmigrations include a dependency audit before work begins, and that integration testing\nstart earlier rather than at the end.",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "summarizer"
+              ],
+              "query": [
+                {
+                  "key": "text",
+                  "value": "The Q3 platform migration finished two weeks behind schedule. The delay came mainly from\nthe payments module, where an undocumented dependency on the old session service was only\ndiscovered during integration testing. The team resolved it by introducing a temporary\nadapter, which is now scheduled for removal in Q1. Overall system latency improved by\naround 18 percent after the migration, and error rates during peak hours dropped noticeably.\nThree engineers were pulled from the reporting project to help with the fix, which pushed\nthe reporting dashboard work into the next quarter. The team has recommended that future\nmigrations include a dependency audit before work begins, and that integration testing\nstart earlier rather than at the end."
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "Text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "524"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 05 Sep 2026 03:02:58 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "- The Q3 platform migration was completed two weeks late due to issues with the payments module.  \n- An undocumented dependency on the old session service was found during integration testing, leading to the delay.  \n- A temporary adapter was implemented to resolve the issue, with plans for its removal in Q1.  \n- Post-migration, system latency improved by 18% and error rates during peak hours decreased.  \n- The team suggests conducting a dependency audit and starting integration testing earlier for future migrations.  "
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "url",
+      "value": "",
+      "type": "default"
+    }
+  ]
+}
